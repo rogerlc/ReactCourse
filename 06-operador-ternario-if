@@ -1,0 +1,25 @@
+//if normal
+/*let average=19
+let status2='';
+
+if(average >= 5.5){
+    status2='Aprovado';
+}else{
+    status2='Reprobado';
+}
+console.log(status2)
+*/
+
+
+
+// operador ternareo es como un if pero regresa un dato
+/*let average=10;
+let result1='';
+result1 = (average => 10) ? 'pass':'fail';
+console.log(result1);*/
+let a = 1,  b = 4, c = 15, d = 3 , max = 0;
+
+max= (a > b)? a : b;
+max= (max > c)? max : c;
+max= (max > d)? max : d;
+console.log(max);
