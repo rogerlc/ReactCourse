@@ -1,0 +1,38 @@
+
+const product=['mesa','silla','teclado'];
+product.push('pantalla lcd');
+/*
+//recorre arreglo con forEach y FUNTION
+product.forEach(function(ele){
+    console.log(ele);
+})
+*/
+/*
+//recorre arreglo con flecha y llaves
+product.forEach(ele =>{
+    console.log(ele);
+})
+*/
+/*
+//recorre arreglo con flecha y llaves
+product.forEach( ele =>   console.log(ele));
+*/
+
+
+//recorre arreglo solo con forEach
+product.forEach(console.log);
+
+//recorre arreglo con OF
+for(const prod of product){
+    console.log(prod);
+}
+
+// recorre arreglo de manera antigua
+for (let i = 0; i < product.length; i++){
+    const element = product[i];
+    console.log(element);
+}
+
+console.log(product[0]);
+
+
